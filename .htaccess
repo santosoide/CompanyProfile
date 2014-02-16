@@ -1,8 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(www.)?company-profile.com$
-RewriteCond %{REQUEST_URI} !^/css/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /public/css/$1
-RewriteCond %{HTTP_HOST} ^(www.)?company-profile.com$
-RewriteRule ^(/)?$ public/ [L]
