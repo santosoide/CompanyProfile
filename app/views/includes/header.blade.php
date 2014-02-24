@@ -1,30 +1,53 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Company Profile</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-      <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+<!--start navigation-->
+    <div class="navbar navbar-fixed-top" id="navigation">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a href="#intro" class="brand">Company Profile</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right">
+              <li><a href="#intro">Home</a></li>
+              <li><a href="#services-top">Services</a></li>
+              <li><a href="#works-top">Works</a></li>
+              <li><a href="#gallery-top">Gallery</a></li>
+              <li><a href="#team-top">Team</a></li>
+              <li><a href="#contact-top">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+      </div>
+    </div>
+    <section id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="span8 offset2 margin25">
+            <div id="carousel_fade_intro" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="active item">
+                  <h2>Multipurpose template</h2>
+                </div>
+                <div class="inactive item">
+                  <h2>designed for portfolio, agency</h2>
+                </div>
+                <div class="inactive item">
+                  <h2>or app landing page.</h2>
+                </div>
+                <div class="inactive item">
+                  <h2>It's easy to customize</h2>
+                </div>
+                <div class="inactive item">
+                  <h2>to fit any brand.</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fadeInUp delay animated hidden-phone" id="more">
+        <a href="#services-top" class="m-btn a-btn red big icn-only"><i class="icon-sort-down icon-3x pull-left"></i></a>
+      </div>
+    </section>

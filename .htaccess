@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteBase / 
+RewriteCond %{HTTP_HOST} ^kampoeng-goedang.uni.me [NC] 
+RewriteRule ^(.*)$ http://beta.kampoeng-goedang.uni.me/$1 [L,R=301]]
+</IfModule>
