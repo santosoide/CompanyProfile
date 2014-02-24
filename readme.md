@@ -1,5 +1,7 @@
-Website Company Profile Sederhana yang dibangun dengan PHP Framework LAravel V 4.1 dan Twitter Bootstrap 3
-- masih dalam tahap pengerjaan tahap demi tahap
-- ketika ada waktu luang sehabis koding di kantor
+Website Company Profile Sederhana :
+- build with Laravel PHP Framework
+- testing blade templating 
+- Themes with Bootstrap 
+- Running Under PHP 5.3.28
 
-#peace jangan di bata ya ~MASTER~#
+Live demo on <a href="http://kampoeng-goedang.uni.me">Kampoeng Goedang</a>
